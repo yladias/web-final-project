@@ -8,7 +8,7 @@ import {useSelector} from "react-redux";
 
 
 const SingleProduct = () => {
-    const {products, categories} = useSelector((state) => state);g
+    const {products, categories} = useSelector((state) => state);
     const {id} = useParams();
     const navigate = useNavigate();
     const {data, isLoading, isFetching, isSuccess} = useGetProductQuery({id});
