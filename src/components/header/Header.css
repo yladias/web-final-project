@@ -1,0 +1,22 @@
+.custom-bg1{
+    background: #191919;
+    color: white;
+    border-radius: 0;
+    margin-bottom: 15px;
+}
+.logo-image{
+    max-width: 100px;
+}
+
+.navbar-collapse{
+    float: right;
+}
+
+.nav-item{
+    margin-left: 25px;
+    cursor: pointer;
+    transition: opacity 500ms ease;
+}
+.nav-item:hover{
+    opacity: 0.5;
+}

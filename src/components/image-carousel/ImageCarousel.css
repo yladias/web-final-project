@@ -1,0 +1,13 @@
+
+.carousel-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.carousel-caption {
+    background-color: white;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+
+}
