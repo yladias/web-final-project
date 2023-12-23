@@ -9,9 +9,9 @@ const Products = ({title, style = {}, products =[], amount}) => {
         {title && <h2>{title}</h2>}
 
         <div className={styles.list}>
-            {list.map(({id,image,title,category: {name: cat}, price})=>(
+            {list.map(({id,images,title,category: {name: cat}, price})=>(
                 <Link to={`/products/${id}`} key={id} className={styles.product}>
-                    <div className={styles.image} style={{backgroundImage:`url(${image}`}}>
+                    <div className={styles.image} style={{backgroundImage:`url(${images[0]}`}}>
 
                     </div>
 
